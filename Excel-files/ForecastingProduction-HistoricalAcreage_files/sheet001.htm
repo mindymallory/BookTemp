@@ -1,0 +1,3612 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Excel.Sheet>
+<meta name=Generator content="Microsoft Excel 15">
+<link id=Main-File rel=Main-File
+href="../ForecastingProduction-HistoricalAcreage.htm">
+<link rel=File-List href=filelist.xml>
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+x\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]-->
+<link rel=Stylesheet href=stylesheet.css>
+<style>
+<!--table
+	{mso-displayed-decimal-separator:"\.";
+	mso-displayed-thousand-separator:"\,";}
+@page
+	{margin:.75in .7in .75in .7in;
+	mso-header-margin:.3in;
+	mso-footer-margin:.3in;}
+-->
+</style>
+<![if !supportTabStrip]><script language="JavaScript">
+<!--
+function fnUpdateTabs()
+ {
+  if (parent.window.g_iIEVer>=4) {
+   if (parent.document.readyState=="complete"
+    && parent.frames['frTabs'].document.readyState=="complete")
+   parent.fnSetActiveSheet(0);
+  else
+   window.setTimeout("fnUpdateTabs();",150);
+ }
+}
+
+if (window.name!="frSheet")
+ window.location.replace("../ForecastingProduction-HistoricalAcreage.htm");
+else
+ fnUpdateTabs();
+//-->
+</script>
+<![endif]>
+</head>
+
+<body link="#0563C1" vlink="#954F72">
+
+<table border=0 cellpadding=0 cellspacing=0 width=3079 style='border-collapse:
+ collapse;table-layout:fixed;width:2313pt'>
+ <col width=64 style='width:48pt'>
+ <col class=xl66 width=64 style='width:48pt'>
+ <col width=64 style='width:48pt'>
+ <col width=76 style='mso-width-source:userset;mso-width-alt:2779;width:57pt'>
+ <col width=63 style='mso-width-source:userset;mso-width-alt:2304;width:47pt'>
+ <col width=59 style='mso-width-source:userset;mso-width-alt:2157;width:44pt'>
+ <col width=62 style='mso-width-source:userset;mso-width-alt:2267;width:47pt'>
+ <col width=61 style='mso-width-source:userset;mso-width-alt:2230;width:46pt'>
+ <col width=92 style='mso-width-source:userset;mso-width-alt:3364;width:69pt'>
+ <col width=44 style='mso-width-source:userset;mso-width-alt:1609;width:33pt'>
+ <col width=73 style='mso-width-source:userset;mso-width-alt:2669;width:55pt'>
+ <col width=52 style='mso-width-source:userset;mso-width-alt:1901;width:39pt'>
+ <col width=42 style='mso-width-source:userset;mso-width-alt:1536;width:32pt'>
+ <col width=97 style='mso-width-source:userset;mso-width-alt:3547;width:73pt'>
+ <col width=65 style='mso-width-source:userset;mso-width-alt:2377;width:49pt'>
+ <col width=70 style='mso-width-source:userset;mso-width-alt:2560;width:53pt'>
+ <col width=48 style='mso-width-source:userset;mso-width-alt:1755;width:36pt'>
+ <col width=101 style='mso-width-source:userset;mso-width-alt:3693;width:76pt'>
+ <col width=138 style='mso-width-source:userset;mso-width-alt:5046;width:104pt'>
+ <col width=237 style='mso-width-source:userset;mso-width-alt:8667;width:178pt'>
+ <col width=150 style='mso-width-source:userset;mso-width-alt:5485;width:113pt'>
+ <col width=95 style='mso-width-source:userset;mso-width-alt:3474;width:71pt'>
+ <col class=xl76 width=234 style='mso-width-source:userset;mso-width-alt:8557;
+ width:176pt'>
+ <col width=254 style='mso-width-source:userset;mso-width-alt:9289;width:191pt'>
+ <col width=147 style='mso-width-source:userset;mso-width-alt:5376;width:110pt'>
+ <col width=31 style='mso-width-source:userset;mso-width-alt:1133;width:23pt'>
+ <col width=64 style='width:48pt'>
+ <col width=212 style='mso-width-source:userset;mso-width-alt:7753;width:159pt'>
+ <col width=64 span=5 style='width:48pt'>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 width=64 style='height:15.0pt;width:48pt'>Program</td>
+  <td class=xl66 width=64 style='width:48pt'>Year</td>
+  <td width=64 style='width:48pt'>Period</td>
+  <td width=76 style='width:57pt'>Week Endin<span style='display:none'>g</span></td>
+  <td width=63 style='width:47pt'>Geo Level</td>
+  <td width=59 style='width:44pt'>State</td>
+  <td width=62 style='width:47pt'>State ANS<span style='display:none'>I</span></td>
+  <td width=61 style='width:46pt'>Ag Distric<span style='display:none'>t</span></td>
+  <td width=92 style='width:69pt'>Ag District Cod<span style='display:none'>e</span></td>
+  <td width=44 style='width:33pt'>County</td>
+  <td width=73 style='width:55pt'>County AN<span style='display:none'>SI</span></td>
+  <td width=52 style='width:39pt'>Zip Cod<span style='display:none'>e</span></td>
+  <td width=42 style='width:32pt'>Regio<span style='display:none'>n</span></td>
+  <td width=97 style='width:73pt'>watershed_cod<span style='display:none'>e</span></td>
+  <td width=65 style='width:49pt'>Watershe<span style='display:none'>d</span></td>
+  <td width=70 style='width:53pt'>Commodit<span style='display:none'>y</span></td>
+  <td width=48 style='width:36pt'>Domain</td>
+  <td width=101 style='width:76pt'>Domain Categor<span style='display:none'>y</span></td>
+  <td width=138 style='width:104pt'>CORN - ACRES PLANTE<span style='display:
+  none'>D</span></td>
+  <td width=237 style='width:178pt'>CORN - ACRES PLANTED<span
+  style='mso-spacerun:yes'>  </span>-<span style='mso-spacerun:yes'> 
+  </span>&lt;b&gt;CV (%)&lt;<span style='display:none'>/b&gt;</span></td>
+  <td width=150 style='width:113pt'>CORN- ACRES HARVESTE<span style='display:
+  none'>D</span></td>
+  <td width=95 style='width:71pt'>Difference</td>
+  <td class=xl76 width=234 style='width:176pt'>Corn Average Prices Received by
+  Far<span style='display:none'>mers</span></td>
+  <td class=xl76 width=254 style='width:191pt'>Soybean Average Prices Received
+  by Far<span style='display:none'>mers</span></td>
+  <td width=147 style='width:110pt'>Corn/Soybean Price Rat<span
+  style='display:none'>io</span></td>
+  <td colspan=2 width=95 style='mso-ignore:colspan;width:71pt'>Yield</td>
+  <td colspan=2 width=276 style='mso-ignore:colspan;width:207pt'>Average
+  Difference Planted-Historical</td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td align=right>2016</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>94,148,000</td>
+  <td></td>
+  <td class=xl65 align=right>86,550,000</td>
+  <td class=xl65 align=right>7,598,000</td>
+  <td colspan=3 style='mso-ignore:colspan'></td>
+  <td align=right>174</td>
+  <td></td>
+  <td class=xl65 align=right>7,631,400</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>2015</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>87,999,000</td>
+  <td></td>
+  <td class=xl65 align=right>80,749,000</td>
+  <td class=xl65 align=right>7,250,000</td>
+  <td class=xl77 width=234 style='width:176pt'>3.71</td>
+  <td class=xl79 align=right>9.49</td>
+  <td align=right>0.390937829</td>
+  <td class=xl73 width=31 style='width:23pt'>168</td>
+  <td colspan=7 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>2014</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>90,597,000</td>
+  <td></td>
+  <td class=xl65 align=right>83,136,000</td>
+  <td class=xl65 align=right>7,461,000</td>
+  <td class=xl77 width=234 style='border-top:none;width:176pt'>4.11</td>
+  <td class=xl73 width=254 style='border-left:none;width:191pt'>12.5</td>
+  <td align=right>0.3288</td>
+  <td class=xl73 width=31 style='border-top:none;width:23pt'>171</td>
+  <td colspan=7 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>2013</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td align=left valign=top><!--[if gte vml 1]><v:shapetype id="_x0000_t75"
+   coordsize="21600,21600" o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe"
+   filled="f" stroked="f">
+   <v:stroke joinstyle="miter"/>
+   <v:formulas>
+    <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+    <v:f eqn="sum @0 1 0"/>
+    <v:f eqn="sum 0 0 @1"/>
+    <v:f eqn="prod @2 1 2"/>
+    <v:f eqn="prod @3 21600 pixelWidth"/>
+    <v:f eqn="prod @3 21600 pixelHeight"/>
+    <v:f eqn="sum @0 0 1"/>
+    <v:f eqn="prod @6 1 2"/>
+    <v:f eqn="prod @7 21600 pixelWidth"/>
+    <v:f eqn="sum @8 21600 0"/>
+    <v:f eqn="prod @7 21600 pixelHeight"/>
+    <v:f eqn="sum @10 21600 0"/>
+   </v:formulas>
+   <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+   <o:lock v:ext="edit" aspectratio="t"/>
+  </v:shapetype><v:shape id="Chart_x0020_1" o:spid="_x0000_s1028" type="#_x0000_t75"
+   style='position:absolute;margin-left:1.5pt;margin-top:6pt;width:570.75pt;
+   height:435.75pt;z-index:1;visibility:visible' o:gfxdata="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
+AgAAkhgAAAAA
+">
+   <v:imagedata src="image001.png" o:title=""/>
+   <o:lock v:ext="edit" aspectratio="f"/>
+   <x:ClientData ObjectType="Pict">
+    <x:SizeWithCells/>
+    <x:CF>Bitmap</x:CF>
+    <x:AutoPict/>
+   </x:ClientData>
+  </v:shape><v:shape id="Chart_x0020_2" o:spid="_x0000_s1029" type="#_x0000_t75"
+   style='position:absolute;margin-left:55.5pt;margin-top:483.75pt;width:669.75pt;
+   height:409.5pt;z-index:2;visibility:visible' o:gfxdata="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
+">
+   <v:imagedata src="image002.png" o:title=""/>
+   <o:lock v:ext="edit" aspectratio="f"/>
+   <x:ClientData ObjectType="Pict">
+    <x:SizeWithCells/>
+    <x:CF>Bitmap</x:CF>
+    <x:AutoPict/>
+   </x:ClientData>
+  </v:shape><v:shape id="Chart_x0020_4" o:spid="_x0000_s1030" type="#_x0000_t75"
+   style='position:absolute;margin-left:704.25pt;margin-top:314.25pt;width:1332pt;
+   height:545.25pt;z-index:3;visibility:visible' o:gfxdata="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
+eG1sUEsFBgAAAAAJAAkAUgIAAPgZAAAAAA==
+">
+   <v:imagedata src="image003.png" o:title=""/>
+   <o:lock v:ext="edit" aspectratio="f"/>
+   <x:ClientData ObjectType="Pict">
+    <x:SizeWithCells/>
+    <x:CF>Bitmap</x:CF>
+    <x:AutoPict/>
+   </x:ClientData>
+  </v:shape><![endif]--><![if !vml]><span style='mso-ignore:vglayout;
+  position:absolute;z-index:1;margin-left:2px;margin-top:8px;width:2713px;
+  height:1183px'><img width=2713 height=1183 src=image027.png v:shapes="Chart_x0020_1 Chart_x0020_2 Chart_x0020_4"></span><![endif]><span
+  style='mso-ignore:vglayout2'>
+  <table cellpadding=0 cellspacing=0>
+   <tr>
+    <td height=20 width=59 style='height:15.0pt;width:44pt'>US TOTAL</td>
+   </tr>
+  </table>
+  </span></td>
+  <td colspan=7 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>95,365,000</td>
+  <td></td>
+  <td class=xl65 align=right>87,451,000</td>
+  <td class=xl65 align=right>7,914,000</td>
+  <td class=xl77 width=234 style='border-top:none;width:176pt'>6.15</td>
+  <td class=xl73 width=254 style='border-top:none;border-left:none;width:191pt'>14.1</td>
+  <td align=right>0.436170213</td>
+  <td class=xl73 width=31 style='border-top:none;width:23pt'>158</td>
+  <td colspan=7 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>2012</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>97,291,000</td>
+  <td></td>
+  <td class=xl65 align=right>87,365,000</td>
+  <td class=xl65 align=right>9,926,000</td>
+  <td class=xl77 width=234 style='border-top:none;width:176pt'>6.67</td>
+  <td class=xl73 width=254 style='border-top:none;border-left:none;width:191pt'>14</td>
+  <td align=right>0.476428571</td>
+  <td class=xl73 width=31 style='border-top:none;width:23pt'>123</td>
+  <td colspan=7 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>2011</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>91,936,000</td>
+  <td></td>
+  <td class=xl65 align=right>83,879,000</td>
+  <td class=xl65 align=right>8,057,000</td>
+  <td class=xl77 width=234 style='border-top:none;width:176pt'>6.02</td>
+  <td class=xl73 width=254 style='border-top:none;border-left:none;width:191pt'>12.5</td>
+  <td align=right>0.4816</td>
+  <td class=xl73 width=31 style='border-top:none;width:23pt'>147</td>
+  <td colspan=7 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>2010</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>88,192,000</td>
+  <td></td>
+  <td class=xl65 align=right>81,446,000</td>
+  <td class=xl65 align=right>6,746,000</td>
+  <td class=xl77 width=234 style='border-top:none;width:176pt'>3.83</td>
+  <td class=xl73 width=254 style='border-top:none;border-left:none;width:191pt'>9.97</td>
+  <td align=right>0.384152457</td>
+  <td class=xl73 width=31 style='border-top:none;width:23pt'>153</td>
+  <td colspan=7 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>2009</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>86,382,000</td>
+  <td></td>
+  <td class=xl65 align=right>79,490,000</td>
+  <td class=xl65 align=right>6,892,000</td>
+  <td class=xl77 width=234 style='border-top:none;width:176pt'>3.75</td>
+  <td class=xl73 width=254 style='border-top:none;border-left:none;width:191pt'>10.1</td>
+  <td align=right>0.371287129</td>
+  <td class=xl73 width=31 style='border-top:none;width:23pt'>164</td>
+  <td colspan=7 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>2008</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>85,982,000</td>
+  <td></td>
+  <td class=xl65 align=right>78,570,000</td>
+  <td class=xl65 align=right>7,412,000</td>
+  <td class=xl77 width=234 style='border-top:none;width:176pt'>4.78</td>
+  <td class=xl73 width=254 style='border-top:none;border-left:none;width:191pt'>11.3</td>
+  <td align=right>0.42300885</td>
+  <td class=xl73 width=31 style='border-top:none;width:23pt'>153</td>
+  <td colspan=7 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>2007</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>93,527,000</td>
+  <td></td>
+  <td class=xl65 align=right>86,520,000</td>
+  <td class=xl65 align=right>7,007,000</td>
+  <td class=xl77 width=234 style='border-top:none;width:176pt'>3.39</td>
+  <td class=xl73 width=254 style='border-top:none;border-left:none;width:191pt'>7.74</td>
+  <td align=right>0.437984496</td>
+  <td class=xl73 width=31 style='border-top:none;width:23pt'>151</td>
+  <td colspan=7 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>2006</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>78,327,000</td>
+  <td></td>
+  <td class=xl65 align=right>70,638,000</td>
+  <td class=xl65 align=right>7,689,000</td>
+  <td class=xl77 width=234 style='border-top:none;width:176pt'>2.28</td>
+  <td class=xl73 width=254 style='border-top:none;border-left:none;width:191pt'>5.65</td>
+  <td align=right>0.403539823</td>
+  <td class=xl73 width=31 style='border-top:none;width:23pt'>149</td>
+  <td colspan=7 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>2005</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>81,779,000</td>
+  <td></td>
+  <td class=xl65 align=right>75,117,000</td>
+  <td class=xl65 align=right>6,662,000</td>
+  <td class=xl77 width=234 style='border-top:none;width:176pt'>1.96</td>
+  <td class=xl73 width=254 style='border-top:none;border-left:none;width:191pt'>5.95</td>
+  <td align=right>0.329411765</td>
+  <td class=xl73 width=31 style='border-top:none;width:23pt'>148</td>
+  <td colspan=7 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>2004</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>80,929,000</td>
+  <td></td>
+  <td class=xl65 align=right>73,631,000</td>
+  <td class=xl65 align=right>7,298,000</td>
+  <td class=xl77 width=234 style='border-top:none;width:176pt'>2.47</td>
+  <td class=xl73 width=254 style='border-top:none;border-left:none;width:191pt'>7.56</td>
+  <td align=right>0.326719577</td>
+  <td class=xl73 width=31 style='border-top:none;width:23pt'>160</td>
+  <td colspan=7 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>2003</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>78,603,000</td>
+  <td></td>
+  <td class=xl65 align=right>70,944,000</td>
+  <td class=xl65 align=right>7,659,000</td>
+  <td class=xl77 width=234 style='border-top:none;width:176pt'>2.27</td>
+  <td class=xl73 width=254 style='border-top:none;border-left:none;width:191pt'>6.08</td>
+  <td align=right>0.373355263</td>
+  <td class=xl73 width=31 style='border-top:none;width:23pt'>142</td>
+  <td colspan=7 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>2002</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>78,894,000</td>
+  <td></td>
+  <td class=xl65 align=right>69,330,000</td>
+  <td class=xl65 align=right>9,564,000</td>
+  <td class=xl77 width=234 style='border-top:none;width:176pt'>2.13</td>
+  <td class=xl73 width=254 style='border-top:none;border-left:none;width:191pt'>4.93</td>
+  <td align=right>0.432048682</td>
+  <td class=xl73 width=31 style='border-top:none;width:23pt'>129</td>
+  <td colspan=7 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>2001</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>75,702,000</td>
+  <td></td>
+  <td class=xl65 align=right>68,768,000</td>
+  <td class=xl65 align=right>6,934,000</td>
+  <td class=xl77 width=234 style='border-top:none;width:176pt'>1.89</td>
+  <td class=xl73 width=254 style='border-top:none;border-left:none;width:191pt'>4.43</td>
+  <td align=right>0.426636569</td>
+  <td class=xl73 width=31 style='border-top:none;width:23pt'>138</td>
+  <td colspan=7 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>2000</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>79,551,000</td>
+  <td></td>
+  <td class=xl65 align=right>72,440,000</td>
+  <td class=xl65 align=right>7,111,000</td>
+  <td class=xl77 width=234 style='border-top:none;width:176pt'>1.86</td>
+  <td class=xl74 width=254 style='border-top:none;border-left:none;width:191pt'>4.73</td>
+  <td align=right>0.393234672</td>
+  <td class=xl73 width=31 style='border-top:none;width:23pt'>137</td>
+  <td colspan=7 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1999</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>77,386,000</td>
+  <td></td>
+  <td class=xl65 align=right>70,487,000</td>
+  <td class=xl65 align=right>6,899,000</td>
+  <td class=xl77 width=234 style='border-top:none;width:176pt'>1.89</td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1998</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>80,165,000</td>
+  <td></td>
+  <td class=xl65 align=right>72,589,000</td>
+  <td class=xl65 align=right>7,576,000</td>
+  <td class=xl77 width=234 style='border-top:none;width:176pt'>2.20</td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1997</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>79,537,000</td>
+  <td></td>
+  <td class=xl65 align=right>72,671,000</td>
+  <td class=xl65 align=right>6,866,000</td>
+  <td class=xl77 width=234 style='border-top:none;width:176pt'>2.60</td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1996</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>79,229,000</td>
+  <td></td>
+  <td class=xl65 align=right>72,644,000</td>
+  <td class=xl65 align=right>6,585,000</td>
+  <td class=xl78 width=234 style='border-top:none;width:176pt'>3.55</td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1995</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>71,479,000</td>
+  <td></td>
+  <td class=xl65 align=right>65,210,000</td>
+  <td class=xl65 align=right>6,269,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1994</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>78,921,000</td>
+  <td></td>
+  <td class=xl65 align=right>72,514,000</td>
+  <td class=xl65 align=right>6,407,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1993</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>73,239,000</td>
+  <td></td>
+  <td class=xl65 align=right>62,933,000</td>
+  <td class=xl65 align=right>10,306,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1992</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>79,311,000</td>
+  <td></td>
+  <td class=xl65 align=right>72,077,000</td>
+  <td class=xl65 align=right>7,234,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1991</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>75,957,000</td>
+  <td></td>
+  <td class=xl65 align=right>68,822,000</td>
+  <td class=xl65 align=right>7,135,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1990</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>74,166,000</td>
+  <td></td>
+  <td class=xl65 align=right>66,952,000</td>
+  <td class=xl65 align=right>7,214,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1989</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>72,322,000</td>
+  <td></td>
+  <td class=xl65 align=right>64,783,000</td>
+  <td class=xl65 align=right>7,539,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1988</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>67,717,000</td>
+  <td></td>
+  <td class=xl65 align=right>58,250,000</td>
+  <td class=xl65 align=right>9,467,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1987</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>66,200,000</td>
+  <td></td>
+  <td class=xl65 align=right>59,505,000</td>
+  <td class=xl65 align=right>6,695,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1986</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>76,580,000</td>
+  <td></td>
+  <td class=xl65 align=right>68,907,000</td>
+  <td class=xl65 align=right>7,673,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1985</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>83,398,000</td>
+  <td></td>
+  <td class=xl65 align=right>75,209,000</td>
+  <td class=xl65 align=right>8,189,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1984</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>80,517,000</td>
+  <td></td>
+  <td class=xl65 align=right>71,897,000</td>
+  <td class=xl65 align=right>8,620,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1983</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>60,207,000</td>
+  <td></td>
+  <td class=xl65 align=right>51,479,000</td>
+  <td class=xl65 align=right>8,728,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1982</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>81,857,000</td>
+  <td></td>
+  <td class=xl65 align=right>72,719,000</td>
+  <td class=xl65 align=right>9,138,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1981</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>84,097,000</td>
+  <td></td>
+  <td class=xl65 align=right>74,524,000</td>
+  <td class=xl65 align=right>9,573,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1980</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>84,043,000</td>
+  <td></td>
+  <td class=xl65 align=right>72,961,000</td>
+  <td class=xl65 align=right>11,082,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1979</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>81,394,000</td>
+  <td></td>
+  <td class=xl65 align=right>72,400,000</td>
+  <td class=xl65 align=right>8,994,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1978</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>81,675,000</td>
+  <td></td>
+  <td class=xl65 align=right>71,930,000</td>
+  <td class=xl65 align=right>9,745,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1977</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>84,328,000</td>
+  <td></td>
+  <td class=xl65 align=right>71,614,000</td>
+  <td class=xl65 align=right>12,714,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1976</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>84,588,000</td>
+  <td></td>
+  <td class=xl65 align=right>71,506,000</td>
+  <td class=xl65 align=right>13,082,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1975</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>78,719,000</td>
+  <td></td>
+  <td class=xl65 align=right>67,625,000</td>
+  <td class=xl65 align=right>11,094,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1974</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>77,935,000</td>
+  <td></td>
+  <td class=xl65 align=right>65,405,000</td>
+  <td class=xl65 align=right>12,530,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1973</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>72,253,000</td>
+  <td></td>
+  <td class=xl65 align=right>62,143,000</td>
+  <td class=xl65 align=right>10,110,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1972</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>67,126,000</td>
+  <td></td>
+  <td class=xl65 align=right>57,513,000</td>
+  <td class=xl65 align=right>9,613,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1971</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>74,179,000</td>
+  <td></td>
+  <td class=xl65 align=right>64,123,000</td>
+  <td class=xl65 align=right>10,056,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1970</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>66,863,000</td>
+  <td></td>
+  <td class=xl65 align=right>57,358,000</td>
+  <td class=xl65 align=right>9,505,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1969</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>64,264,000</td>
+  <td></td>
+  <td class=xl65 align=right>54,574,000</td>
+  <td class=xl65 align=right>9,690,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1968</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>65,126,000</td>
+  <td></td>
+  <td class=xl65 align=right>55,980,000</td>
+  <td class=xl65 align=right>9,146,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1967</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>71,156,000</td>
+  <td></td>
+  <td class=xl65 align=right>60,694,000</td>
+  <td class=xl65 align=right>10,462,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1966</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>66,347,000</td>
+  <td></td>
+  <td class=xl65 align=right>57,002,000</td>
+  <td class=xl65 align=right>9,345,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1965</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>65,171,000</td>
+  <td></td>
+  <td class=xl65 align=right>55,392,000</td>
+  <td class=xl65 align=right>9,779,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1964</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>65,823,000</td>
+  <td></td>
+  <td class=xl65 align=right>55,369,000</td>
+  <td class=xl65 align=right>10,454,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1963</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>68,771,000</td>
+  <td></td>
+  <td class=xl65 align=right>59,227,000</td>
+  <td class=xl65 align=right>9,544,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1962</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>65,017,000</td>
+  <td></td>
+  <td class=xl65 align=right>55,726,000</td>
+  <td class=xl65 align=right>9,291,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1961</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>65,919,000</td>
+  <td></td>
+  <td class=xl65 align=right>57,634,000</td>
+  <td class=xl65 align=right>8,285,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1960</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>81,425,000</td>
+  <td></td>
+  <td class=xl65 align=right>71,422,000</td>
+  <td class=xl65 align=right>10,003,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1959</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>82,742,000</td>
+  <td></td>
+  <td class=xl65 align=right>72,091,000</td>
+  <td class=xl65 align=right>10,651,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1958</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>73,351,000</td>
+  <td></td>
+  <td class=xl65 align=right>63,549,000</td>
+  <td class=xl65 align=right>9,802,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1957</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>73,180,000</td>
+  <td></td>
+  <td class=xl65 align=right>63,065,000</td>
+  <td class=xl65 align=right>10,115,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1956</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>77,828,000</td>
+  <td></td>
+  <td class=xl65 align=right>64,877,000</td>
+  <td class=xl65 align=right>12,951,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1955</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>80,932,000</td>
+  <td></td>
+  <td class=xl65 align=right>68,462,000</td>
+  <td class=xl65 align=right>12,470,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1954</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>82,185,000</td>
+  <td></td>
+  <td class=xl65 align=right>68,668,000</td>
+  <td class=xl65 align=right>13,517,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1953</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>81,574,000</td>
+  <td></td>
+  <td class=xl65 align=right>70,738,000</td>
+  <td class=xl65 align=right>10,836,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1952</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>82,230,000</td>
+  <td></td>
+  <td class=xl65 align=right>71,353,000</td>
+  <td class=xl65 align=right>10,877,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1951</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>83,275,000</td>
+  <td></td>
+  <td class=xl65 align=right>71,191,000</td>
+  <td class=xl65 align=right>12,084,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1950</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>82,859,000</td>
+  <td></td>
+  <td class=xl65 align=right>72,398,000</td>
+  <td class=xl65 align=right>10,461,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1949</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>86,738,000</td>
+  <td></td>
+  <td class=xl65 align=right>77,106,000</td>
+  <td class=xl65 align=right>9,632,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1948</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>85,522,000</td>
+  <td></td>
+  <td class=xl65 align=right>76,840,000</td>
+  <td class=xl65 align=right>8,682,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1947</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>85,038,000</td>
+  <td></td>
+  <td class=xl65 align=right>73,802,000</td>
+  <td class=xl65 align=right>11,236,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1946</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>88,898,000</td>
+  <td></td>
+  <td class=xl65 align=right>78,410,000</td>
+  <td class=xl65 align=right>10,488,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1945</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>89,261,000</td>
+  <td></td>
+  <td class=xl65 align=right>77,928,000</td>
+  <td class=xl65 align=right>11,333,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1944</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>95,475,000</td>
+  <td></td>
+  <td class=xl65 align=right>85,002,000</td>
+  <td class=xl65 align=right>10,473,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1943</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>94,341,000</td>
+  <td></td>
+  <td class=xl65 align=right>81,906,000</td>
+  <td class=xl65 align=right>12,435,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1942</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>88,818,000</td>
+  <td></td>
+  <td class=xl65 align=right>79,213,000</td>
+  <td class=xl65 align=right>9,605,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1941</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>86,837,000</td>
+  <td></td>
+  <td class=xl65 align=right>77,404,000</td>
+  <td class=xl65 align=right>9,433,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1940</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>88,692,000</td>
+  <td></td>
+  <td class=xl65 align=right>76,443,000</td>
+  <td class=xl65 align=right>12,249,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1939</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>91,639,000</td>
+  <td></td>
+  <td class=xl65 align=right>78,307,000</td>
+  <td class=xl65 align=right>13,332,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1938</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>94,473,000</td>
+  <td></td>
+  <td class=xl65 align=right>82,788,000</td>
+  <td class=xl65 align=right>11,685,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1937</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>97,174,000</td>
+  <td></td>
+  <td class=xl65 align=right>81,222,000</td>
+  <td class=xl65 align=right>15,952,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1936</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>101,959,000</td>
+  <td></td>
+  <td class=xl65 align=right>67,833,000</td>
+  <td class=xl65 align=right>34,126,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1935</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>99,974,000</td>
+  <td></td>
+  <td class=xl65 align=right>82,551,000</td>
+  <td class=xl65 align=right>17,423,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1934</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>100,563,000</td>
+  <td></td>
+  <td class=xl65 align=right>61,245,000</td>
+  <td class=xl65 align=right>39,318,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1933</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>109,830,000</td>
+  <td></td>
+  <td class=xl65 align=right>92,130,000</td>
+  <td class=xl65 align=right>17,700,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1932</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>113,024,000</td>
+  <td></td>
+  <td class=xl65 align=right>97,213,000</td>
+  <td class=xl65 align=right>15,811,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1931</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>109,364,000</td>
+  <td></td>
+  <td class=xl65 align=right>91,131,000</td>
+  <td class=xl65 align=right>18,233,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1930</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>103,915,000</td>
+  <td></td>
+  <td class=xl65 align=right>85,525,000</td>
+  <td class=xl65 align=right>18,390,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1929</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>99,130,000</td>
+  <td></td>
+  <td class=xl65 align=right>83,194,000</td>
+  <td class=xl65 align=right>15,936,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1928</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>100,399,000</td>
+  <td></td>
+  <td class=xl65 align=right>85,832,000</td>
+  <td class=xl65 align=right>14,567,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1927</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>98,460,000</td>
+  <td></td>
+  <td class=xl65 align=right>83,915,000</td>
+  <td class=xl65 align=right>14,545,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1926</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td class=xl65 align=right>99,660,000</td>
+  <td></td>
+  <td class=xl65 align=right>83,275,000</td>
+  <td class=xl65 align=right>16,385,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1925</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+  <td class=xl65 align=right>86,825,000</td>
+  <td class=xl65 align=right>-86,825,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1924</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+  <td class=xl65 align=right>84,119,000</td>
+  <td class=xl65 align=right>-84,119,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1923</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+  <td class=xl65 align=right>87,493,000</td>
+  <td class=xl65 align=right>-87,493,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1922</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+  <td class=xl65 align=right>84,858,000</td>
+  <td class=xl65 align=right>-84,858,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1921</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+  <td class=xl65 align=right>91,939,000</td>
+  <td class=xl65 align=right>-91,939,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1920</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+  <td class=xl65 align=right>90,149,000</td>
+  <td class=xl65 align=right>-90,149,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1919</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+  <td class=xl65 align=right>87,487,000</td>
+  <td class=xl65 align=right>-87,487,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1918</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+  <td class=xl65 align=right>102,195,000</td>
+  <td class=xl65 align=right>-102,195,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1917</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+  <td class=xl65 align=right>110,893,000</td>
+  <td class=xl65 align=right>-110,893,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1916</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+  <td class=xl65 align=right>100,561,000</td>
+  <td class=xl65 align=right>-100,561,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1915</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+  <td class=xl65 align=right>100,623,000</td>
+  <td class=xl65 align=right>-100,623,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1914</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+  <td class=xl65 align=right>97,796,000</td>
+  <td class=xl65 align=right>-97,796,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1913</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+  <td class=xl65 align=right>100,206,000</td>
+  <td class=xl65 align=right>-100,206,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1912</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+  <td class=xl65 align=right>101,451,000</td>
+  <td class=xl65 align=right>-101,451,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1911</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+  <td class=xl65 align=right>101,393,000</td>
+  <td class=xl65 align=right>-101,393,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1910</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+  <td class=xl65 align=right>102,267,000</td>
+  <td class=xl65 align=right>-102,267,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1909</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+  <td class=xl65 align=right>100,200,000</td>
+  <td class=xl65 align=right>-100,200,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1908</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+  <td class=xl65 align=right>95,285,000</td>
+  <td class=xl65 align=right>-95,285,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1907</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+  <td class=xl65 align=right>96,094,000</td>
+  <td class=xl65 align=right>-96,094,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1906</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+  <td class=xl65 align=right>95,624,000</td>
+  <td class=xl65 align=right>-95,624,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1905</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+  <td class=xl65 align=right>95,746,000</td>
+  <td class=xl65 align=right>-95,746,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1904</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+  <td class=xl65 align=right>95,228,000</td>
+  <td class=xl65 align=right>-95,228,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1903</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+  <td class=xl65 align=right>93,555,000</td>
+  <td class=xl65 align=right>-93,555,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1902</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+  <td class=xl65 align=right>97,177,000</td>
+  <td class=xl65 align=right>-97,177,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1901</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+  <td class=xl65 align=right>94,422,000</td>
+  <td class=xl65 align=right>-94,422,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1900</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+  <td class=xl65 align=right>94,852,000</td>
+  <td class=xl65 align=right>-94,852,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1899</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+  <td class=xl65 align=right>94,591,000</td>
+  <td class=xl65 align=right>-94,591,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1898</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+  <td class=xl65 align=right>87,784,000</td>
+  <td class=xl65 align=right>-87,784,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1897</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+  <td class=xl65 align=right>89,965,000</td>
+  <td class=xl65 align=right>-89,965,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1896</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+  <td class=xl65 align=right>89,074,000</td>
+  <td class=xl65 align=right>-89,074,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1895</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+  <td class=xl65 align=right>90,479,000</td>
+  <td class=xl65 align=right>-90,479,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1894</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+  <td class=xl65 align=right>80,069,000</td>
+  <td class=xl65 align=right>-80,069,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1893</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+  <td class=xl65 align=right>79,832,000</td>
+  <td class=xl65 align=right>-79,832,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1892</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+  <td class=xl65 align=right>76,914,000</td>
+  <td class=xl65 align=right>-76,914,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1891</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+  <td class=xl65 align=right>78,855,000</td>
+  <td class=xl65 align=right>-78,855,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1890</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+  <td class=xl65 align=right>74,785,000</td>
+  <td class=xl65 align=right>-74,785,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1889</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+  <td class=xl65 align=right>77,656,000</td>
+  <td class=xl65 align=right>-77,656,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1888</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+  <td class=xl65 align=right>77,474,000</td>
+  <td class=xl65 align=right>-77,474,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1887</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+  <td class=xl65 align=right>73,296,000</td>
+  <td class=xl65 align=right>-73,296,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1886</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+  <td class=xl65 align=right>73,911,000</td>
+  <td class=xl65 align=right>-73,911,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1885</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+  <td class=xl65 align=right>71,854,000</td>
+  <td class=xl65 align=right>-71,854,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1884</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+  <td class=xl65 align=right>68,834,000</td>
+  <td class=xl65 align=right>-68,834,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1883</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+  <td class=xl65 align=right>68,168,000</td>
+  <td class=xl65 align=right>-68,168,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1882</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+  <td class=xl65 align=right>66,157,000</td>
+  <td class=xl65 align=right>-66,157,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1881</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+  <td class=xl65 align=right>63,026,000</td>
+  <td class=xl65 align=right>-63,026,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1880</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+  <td class=xl65 align=right>62,545,000</td>
+  <td class=xl65 align=right>-62,545,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1879</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+  <td class=xl65 align=right>62,229,000</td>
+  <td class=xl65 align=right>-62,229,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1878</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+  <td class=xl65 align=right>59,659,000</td>
+  <td class=xl65 align=right>-59,659,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1877</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+  <td class=xl65 align=right>58,799,000</td>
+  <td class=xl65 align=right>-58,799,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1876</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+  <td class=xl65 align=right>55,277,000</td>
+  <td class=xl65 align=right>-55,277,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1875</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+  <td class=xl65 align=right>52,446,000</td>
+  <td class=xl65 align=right>-52,446,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1874</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+  <td class=xl65 align=right>47,640,000</td>
+  <td class=xl65 align=right>-47,640,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1873</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+  <td class=xl65 align=right>44,084,000</td>
+  <td class=xl65 align=right>-44,084,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1872</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+  <td class=xl65 align=right>43,584,000</td>
+  <td class=xl65 align=right>-43,584,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1871</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+  <td class=xl65 align=right>42,002,000</td>
+  <td class=xl65 align=right>-42,002,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1870</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+  <td class=xl65 align=right>38,388,000</td>
+  <td class=xl65 align=right>-38,388,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1869</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+  <td class=xl65 align=right>35,833,000</td>
+  <td class=xl65 align=right>-35,833,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1868</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+  <td class=xl65 align=right>35,116,000</td>
+  <td class=xl65 align=right>-35,116,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1867</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+  <td class=xl65 align=right>32,116,000</td>
+  <td class=xl65 align=right>-32,116,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'>SURVEY</td>
+  <td class=xl66 align=right>1866</td>
+  <td>YEAR</td>
+  <td></td>
+  <td>NATIONA<span style='display:none'>L</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>US TOTAL</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+  <td align=right>0</td>
+  <td></td>
+  <td>CORN</td>
+  <td>TOTAL</td>
+  <td>NOT SPECIFIED</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+  <td class=xl65 align=right>30,017,000</td>
+  <td class=xl65 align=right>-30,017,000</td>
+  <td class=xl76></td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <![if supportMisalignedColumns]>
+ <tr height=0 style='display:none'>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=76 style='width:57pt'></td>
+  <td width=63 style='width:47pt'></td>
+  <td width=59 style='width:44pt'></td>
+  <td width=62 style='width:47pt'></td>
+  <td width=61 style='width:46pt'></td>
+  <td width=92 style='width:69pt'></td>
+  <td width=44 style='width:33pt'></td>
+  <td width=73 style='width:55pt'></td>
+  <td width=52 style='width:39pt'></td>
+  <td width=42 style='width:32pt'></td>
+  <td width=97 style='width:73pt'></td>
+  <td width=65 style='width:49pt'></td>
+  <td width=70 style='width:53pt'></td>
+  <td width=48 style='width:36pt'></td>
+  <td width=101 style='width:76pt'></td>
+  <td width=138 style='width:104pt'></td>
+  <td width=237 style='width:178pt'></td>
+  <td width=150 style='width:113pt'></td>
+  <td width=95 style='width:71pt'></td>
+  <td width=234 style='width:176pt'></td>
+  <td width=254 style='width:191pt'></td>
+  <td width=147 style='width:110pt'></td>
+  <td width=31 style='width:23pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=212 style='width:159pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+ </tr>
+ <![endif]>
+</table>
+
+</body>
+
+</html>

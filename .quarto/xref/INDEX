@@ -1,0 +1,86 @@
+{
+  "index.qmd": {
+    "index.html": "b8e5a8c5"
+  },
+  "intro.qmd": {
+    "intro.html": "ebd515a8"
+  },
+  "summary.qmd": {
+    "summary.html": "959cb3a2"
+  },
+  "references.qmd": {
+    "references.html": "9a9d4cd1"
+  },
+  "01-PrimerforGrain.qmd": {
+    "01-PrimerforGrain.html": "4d9d2312"
+  },
+  "02-IntroductiontoCommodity.qmd": {
+    "02-IntroductiontoCommodity.html": "ec4ef10d"
+  },
+  "03-HowtoFind.qmd": {
+    "03-HowtoFind.html": "43d1471f"
+  },
+  "04-FuturesContractsandHedging.qmd": {
+    "04-FuturesContractsandHedging.html": "afeefca0"
+  },
+  "05-Options1.qmd": {
+    "05-Options1.html": "12480ea9"
+  },
+  "06-Options2.qmd": {
+    "06-Options2.html": "ebef0c3c"
+  },
+  "07-Options4.qmd": {
+    "07-Options4.html": "95bc5f89"
+  },
+  "08-Options3.qmd": {
+    "08-Options3.html": "bc40de25"
+  },
+  "09-PricesSpaceTime.qmd": {
+    "09-PricesSpaceTime.html": "506f1632"
+  },
+  "10-FundamentalAnalysisand.qmd": {
+    "10-FundamentalAnalysisand.html": "811853b2"
+  },
+  "11-PriceReactionto.qmd": {
+    "11-PriceReactionto.html": "e7ac9131"
+  },
+  "12-ForecastingProduction.qmd": {
+    "12-ForecastingProduction.html": "f6a7eef5"
+  },
+  "13-ForecastingUseof.qmd": {
+    "13-ForecastingUseof.html": "ea2541ae"
+  },
+  "14-ForecastingUseSoy.qmd": {
+    "14-ForecastingUseSoy.html": "b8dfd8a9"
+  },
+  "15-EndingStocksand.qmd": {
+    "15-EndingStocksand.html": "49d1f72b"
+  },
+  "16-TheSoybeanCrush.qmd": {
+    "16-TheSoybeanCrush.html": "ee3c584c"
+  },
+  "17-EthanolMarketsand.qmd": {
+    "17-EthanolMarketsand.html": "7879c0d5"
+  },
+  "18-BeefCattleMarkets.qmd": {
+    "18-BeefCattleMarkets.html": "c7a7e7c1"
+  },
+  "19-HogMarkets.qmd": {
+    "19-HogMarkets.html": "5b138bf5"
+  },
+  "20-CrudeOiland.qmd": {
+    "20-CrudeOiland.html": "78513e88"
+  },
+  "21-ForecastingProductionAdvanced.qmd": {
+    "21-ForecastingProductionAdvanced.html": "20f194b1"
+  },
+  "22-IntroductiontoCommodityTS.qmd": {
+    "22-IntroductiontoCommodityTS.html": "002f280a"
+  },
+  "23-IntroductiontoSingle.qmd": {
+    "23-IntroductiontoSingle.html": "8a81de75"
+  },
+  "24-A-South-American-Production.qmd": {
+    "24-A-South-American-Production.html": "16c455b8"
+  }
+}
